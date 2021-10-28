@@ -1,0 +1,43 @@
+@keyframes animateHeading {
+    0% {
+        opacity: 0;
+        letter-spacing: 3rem;
+        transform: translateZ(8rem);
+    }
+
+    3% {
+        opacity: 1;
+        letter-spacing: 1.5rem;
+        transform: translateZ(0);
+    }
+
+    25% {
+        opacity: 1;
+        letter-spacing: 1.5rem;
+        transform: translateZ(0);
+    }
+
+    28% {
+        opacity: 0;
+        letter-spacing: 3rem;
+        transform: translateZ(8rem);
+    }
+
+    100% {
+        opacity: 0;
+        letter-spacing: 3rem;
+        transform: translateZ(8rem);
+    }
+}
+
+@keyframes fadeAnimation {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
